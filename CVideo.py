@@ -72,7 +72,7 @@ class SGCV:
         self.layout = [[sg.Column(layout=[self.op_frame, self.deviceFrame, self.voiceFrame, self.recordFrame], size=(300, 500)), 
                         sg.VSeparator(), sg.Column(self.right_layout)]]
         
-        self.window = sg.Window(title='智能座舱测试软件', layout=self.layout)
+        self.window = sg.Window(title='手势动作检测', layout=self.layout)
 
         ###################
         self.video_out = None       # 视频录制对象
